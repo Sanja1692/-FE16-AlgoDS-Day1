@@ -1,0 +1,10 @@
+Input num
+random number (1-N)
+if num = random num
+    message = “You are correct - the random number is 4”
+if num < random num
+    message = “My number is higher than 4, guess again higher!”    
+ELSE 
+    message = “My number is lower than 4, guess again lower!”
+OUTPUT message    
+    

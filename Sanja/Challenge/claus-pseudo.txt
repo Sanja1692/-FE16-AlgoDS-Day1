@@ -1,0 +1,56 @@
+1. guessing-game
+
+INPUT integer number from 1-10 
+var random.number
+IF INPUT = var  
+    OUTPUT 'right'
+ELSE
+    OUTPUT 'try again' and go back to INPUT
+
+
+2.seconds to week/day/hour/minute/seconds
+
+INPUT integer num (s)
+weeks = num (s) / 604600 % rest
+days = rest / 86400 % rest
+hours = rest / 3600 % rest
+minutes = rest / 60 % rest
+seconds = rest
+OUTPUT weeks:days:hours:minutes:seconds
+
+
+3. atm-machine
+
+INPUT integer num (€)
+
+IF INPUT / 10 % == 0
+    IF 100 EUR == 0
+ELSE
+    INPUT integer num (€) and 'please enter amount devideable by 10'
+
+IF 100 EUR == 0
+    IF 50 EUR == 0
+ELSE 
+    num / 100 % rest // -> 100 EUR + rest
+
+IF 50 EUR == 0   
+    IF 20 EUR == 0 
+ELSE
+    num or rest / 50 & rest // -> 50 EUR + rest
+
+IF 20 EUR == 0
+    IF 10 EUR = 0
+ELSE  
+    num or rest / 20 % rest // -> 20 EUR + rest
+
+IF 10 EUR == 0
+    OUTPUT 'empty' THEN restock THEN END// or do loop to see if / by 100, 50, 20 is possible
+ELSE 
+    num or rest / 10 // -> 10 EUR
+
+OUTPUT '100 EUR, 50 EUR, 20 EUR, 10  EUR'
+
+END
+
+
+

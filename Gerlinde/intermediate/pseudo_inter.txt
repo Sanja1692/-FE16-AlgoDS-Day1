@@ -1,0 +1,38 @@
+INPUT SECONDS (SEC_NUMB)
+Count to WEEK/DAY/HOUR/MIN/SEC
+
+
+1. QUESTION: WEEK consists of how many seconds?
+
+(1 * WEEK =
+7  * DAYS = 
+7 * 24 HOURS = 
+7 * 24 * 60 MINUTES =
+7 * 24 * 60 * 60 SECONDS )
+
+1 * week = 7 * 24 * 60 * 60 SECONDS 
+
+
+1. vergleich:
+
+How many weeks (in integer number) has the sec_number?
+
+weeks = sec_number / (7 * 24 * 60 * 60)
+sec_number = sec_number - (weeks * (7 * 24 * 60 * 60))
+days = sec_number / (24 * 60 * 60)
+sec_number = sec_number - (days * ( 24 * 60 * 60))
+hours = sec_number / (60 * 60)
+sec_number = sec_number - (hours * (60 * 60))
+minutes = sec_number / 60
+sec_number = sec_number - (minutes * (60))
+seonds = sec_number
+
+ATM - machine
+
+EUR notes:
+
+
+100
+50
+20
+10

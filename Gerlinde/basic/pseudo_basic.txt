@@ -1,0 +1,40 @@
+INPUT N (Bereich der Zufallszahl) (10)
+Interne Berechnung der Zufallszahl (NUMB) (7)
+INPUT geschätzte Zahl (GUESS) 3
+
+SCHLeife (solange (bis number und guess gleich ist.)
+
+
+1. Vergleich: i=1 
+GUESS=3
+Intern Vergleich von Zufallszahl und geschätzter Zahl:
+NUMB > GUESS THEN
+(7 > 3)
+
+
+2. Vergleich: i=i+1 (2)
+GUESS= GUESS + (N - GUESS)/2 auf ganze Zahl abrunden!
+
+Numb > Guess ->
+7 > 6 - " My number is higher than 6, guess higher!"
+low = guess;
+
+
+3. Vergleich: i=i+1 (3)
+THEN 
+Guess = Guess + (N - GUESS)/2 aufrunden!
+Guess = (8);
+
+
+4. Vergleich: i=i+1
+7 < 8 - " My number is smaller than 8, guess higher!"
+THEN
+high = guess
+guess = guess - (N - high) /2;
+
+
+5. Vergleich: i=i+1
+7=7 - “You are correct - the random number is 7”
+
+
+

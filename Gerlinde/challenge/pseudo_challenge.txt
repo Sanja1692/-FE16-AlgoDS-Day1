@@ -1,0 +1,61 @@
+Sorting & Co:
+
+
+array of number = {1, 3, 5, 4, 5, 9, 6, 1, 2, 6, 5, 4, 4, 9, 7 }
+
+
+loop:
+
+do until all numbers are read or max-number is found
+
+read array
+read 1st number.
+is 1st number the max of numbers of the array THEN stop and write number is the max-number
+
+else
+
+go to the next number
+is 2nd number the max of numbers of the array THEN stop and write number is the max-number
+
+
+
+
+or
+
+
+
+do until all numbers are read
+count anzahl of numbers
+i= 1
+Is i = count +1 ? >>> then end!
+
+read 1st number array(i)
+compage with the 2nd number -
+is array (i) > array (i+1)
+(is the 1st number is higher than the second)
+     then array (1) -> max_number
+     then 1st number ist max-number
+
+     else 
+     i=i+1
+     read array (i)
+
+
+
+     read next number 
+compare with max-number
+is the next number higher than max-number 
+    then next number is max-number, 
+    max_number = array (i)
+    else
+        i = i+1
+        read next number array (i)
+
+
+is next number higher than max-number,
+        then next-number is max-number
+        else
+            read next number
+
+
+

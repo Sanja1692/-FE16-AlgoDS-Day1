@@ -1,0 +1,31 @@
+Input num_sec
+
+min = num_sec / 60;
+hours = num_sec / (60 * 60);
+days = num_sec / (60 * 60 * 24);
+weeks = num_sec / (60 * 60 * 24 * 7);
+rest = sec;
+
+OUTPUT  weeks:days:hours:minutes:seconds
+    
+INPUT num
+
+If num / 10 = 0
+
+ELSE
+    "You can only withdraw a multiple of ten!" 
+count100 = num / 100;
+count50 = rest / 50;
+count20 = rest / 20;
+count10 = rest / 10;
+
+OUTPUT 
+count100, count50, count20, count10 
+
+
+-Input example (e)280-
+
+input/100 -> amount(e2)
+R(e0.8)/0.5 -> amount(e1) 
+R(e0.6)/0.4 -> amount(e1)
+R(e0.5)/0.5 -> amount(e1)
